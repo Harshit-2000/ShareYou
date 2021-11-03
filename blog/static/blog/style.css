@@ -1,0 +1,65 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-photo, .photo{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.profile-photo-div{
+    text-align: center;
+}
+
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.home-div{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.navbar{
+    color: whitesmoke;
+    background-color: rgb(138, 40, 230);
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:1
+}
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar ul{ 
+    list-style: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.navbar li{
+    padding: 10px;
+    padding-left: 16px;
+    border-bottom: 0.5px  solid rgba(255, 255, 255, 0.5);
+}
+
+.blog-image{
+    max-width: 90%;
+    max-height: 70%;
+}
+
+.navbar li:hover {
+    background-color:rgb(100, 33, 163) ;
+}
